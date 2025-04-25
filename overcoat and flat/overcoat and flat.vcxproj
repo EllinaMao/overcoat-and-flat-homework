@@ -127,14 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="C:\USERS\INTEL\APPDATA\LOCAL\TEMP\TMP6EEC.TMP.CPP" />
+    <ClCompile Include="C:\USERS\INTEL\APPDATA\LOCAL\TEMP\TMPE025.TMP.CPP" />
     <ClCompile Include="flat.cpp" />
     <ClCompile Include="overcoat and flat.cpp" />
     <ClCompile Include="overcoat.cpp" />
+    <ClCompile Include="overcoats arr.cpp" />
     <ClCompile Include="strmetods.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="flat.h" />
     <ClInclude Include="overcoat.h" />
+    <ClInclude Include="overcoats arr.h" />
     <ClInclude Include="strmetods.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
