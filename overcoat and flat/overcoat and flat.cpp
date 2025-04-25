@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include "overcoat.h"
+#include "overcoats arr.h"
 #include "flat.h"
 using namespace std;
 
@@ -12,7 +13,7 @@ int main()
     Overcoat coat1("Maria", "Parka", 150.0);
     Overcoat coat2("Anna", "Trench", 200.0);
     Overcoat coat3("Anton", "Parka", 120.0);
-
+    Overcoat coat4("Eve", "Leather jacket", 50.0);
     // Demonstrating overloaded operators for Flat
 
     if (coat1 == coat3)
@@ -27,21 +28,27 @@ int main()
         cout << "Coat 2 is more expensive than Coat 1.\n";
 
 
-    cout << "Coat 2 before assignment from Coat 1:\n";
-    coat2.PrintInfo();
+    Overcoats coats;
+    coats.AddNewCoat(coat1);
+    coats.AddNewCoat(coat2);
+    coats.AddNewCoat(coat3);
+    coats.AddNewCoat(coat4);
 
-    coat2 = coat1;
 
-    cout << "Coat 2 after assignment from Coat 1:\n";
-    coat2.PrintInfo();
+    cout << "Coats array after sort: " << endl;
+    // Сортировка массивов по убыванию цены
+    coats.SortByPriceDescending();
+    coats.PrintInfo();
+    
 
 #endif // TASK1
 
 // Task 2: Flat
 #ifdef TASK2
 
-    Flat myFlat(2000.32, 6900.23, 12, 30);
-    Flat friendFlat(400.32, 1200.23, 1, 7);
+    Flat myFlat(2000.32, 6900.23, "123 Agdeeva Chernomorskogo", 12, 30);
+    Flat friendFlat(400.32, 1200.23, "456 Nebesnoi Sotni", 1, 7);
+
 
     if (myFlat == friendFlat)
         cout << "My flat and friend's flat have the same area.\n";

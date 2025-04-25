@@ -27,6 +27,15 @@
     <ClCompile Include="overcoat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="overcoats arr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\USERS\INTEL\APPDATA\LOCAL\TEMP\TMP6EEC.TMP.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\USERS\INTEL\APPDATA\LOCAL\TEMP\TMPE025.TMP.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="flat.h">
@@ -36,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="overcoat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overcoats arr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
